@@ -3,3 +3,6 @@ h1{color:blue;}
 /* esto
 *es
 *un comentario multilinea*/
+
+body{background-image:url(./image/cancah.jpg); background-repeat: no-repeat; background-size: cover;}
+*{color: lightpink;} /*esto es para el color del texto*/
