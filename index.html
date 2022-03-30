@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,29 +24,105 @@ div{
 
 
 </head>
-<header><menu>
-    <img src="./image/download.png" id="logo-header" alt="">
+<header><nav class="navbar navbar-expand-lg navbar-light bg-light ">
+
+    <div class="container-fluid">
+        <img src="./image/download.png" id="logo-header" alt="">
+        
+        <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+
+  </nav>
+    <menu>
+   
     <a href="#"><li>home</li></a>
 <a href="#"><li>contacto</li></a>
 <a href="#"><li>sobre nosostros</li></a>
 <li></li></menu></header>
 
 <body>
-    <spam id="colizq">
-
-    <a href="contacto.html">mandarle mensaje a messi</a>
-<h1>la web de messi</h1><!--squere cambia los bullets a cudrados, w3school puedo ver todas las propiedades que tiene
-varias tienen propiedades y valores. el H de arriba es para cuadno todavia no tengo el link-->
-<ul type="square"> cosas que rompio hummer
-<li style = "color: red" > medias</li>
-<li id="calor">alpargatas  </li> </ul>
-<ol type ="A" start="5" reversed>hechos importanyes
-    <li  class="lista">20 enero adpocion</li>
-<li class="lista">castracion </li>
-<li class="lista"> comida nueva</li>
-</ol>
-</spam>
-<spam id="colder">
+    <div class="container">
+        <div class="row">
+        <div class="col">
+           
+            <a href="contacto.html">mandarle mensaje a messi</a>
+            <h1>la web de messi</h1><!--squere cambia los bullets a cudrados, w3school puedo ver todas las propiedades que tiene
+            varias tienen propiedades y valores. el H de arriba es para cuadno todavia no tengo el link-->
+            <ul type="square"> cosas que rompio hummer
+            <li style = "color: red" > medias</li>
+            <li id="calor">alpargatas  </li> </ul>
+            <ol type ="A" start="5" reversed>hechos importanyes
+                <li  class="lista">20 enero adpocion</li>
+            <li class="lista">castracion </li>
+            <li class="lista"> comida nueva</li>
+            </ol>
+        </div>
+        <div class="col-8">
+            <table> Habitan con Loren
+                <tr><!-- table row --> <th class="lista-desordenada">Nombre</th><th class="lista-desordenada">Apellido</th><th class="lista-desordenada">Edad</th> </tr>
+                <tr><td>loren</td><td>santamarina</td><td>19</td></tr>
+                <tr><td>sato</td><td>santamarina</td><td>16</td></tr>
+                <!--TD= table data // TH= table header-->
+            
+            
+            
+            </table>
+            
+            <!--table row es para fila
+            td es tabala data ,th es table header -->
+               
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, dicta? Velit neque aliquid sed incidunt commodi, eaque adipisci cumque soluta vitae veritatis, ipsa eum eveniet necessitatibus debitis? Voluptatum, neque sint.</p>
+            <img id="foto" src="./image/messi.jpg" alt="foto de messi" div.static {
+                position: static;
+                border: 3px solid #73AD21;
+              }
+            width="20%"> <!--el tamaño de la foto en la pagina, se adpta al tamaño-->
+            
+            <h1 id="cajaejemplo">cajajaja</h1>
+            <a href="mailto:lsantamarina@itba.edu.ar">
+            <i class="fa-solid fa-envelope" id="sobre"></i>
+            </a>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus doloremque quam enim assumenda quae fugiat, optio, odit tempora, nihil quas rem provident! Quod maiores beatae dolore repellendus facilis adipisci nihil?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi quas inventore corrupti autem facere, et sint! Ipsum eveniet nam, quasi facilis voluptate fuga nesciunt consectetur rem facere doloremque eius beatae?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsa necessitatibus beatae provident a vel veritatis natus ut odit eius ratione exercitationem tempora sit sequi aperiam in blanditiis, optio eum!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit accusamus voluptas rem tempore deleniti, aspernatur voluptates asperiores, possimus incidunt laborum iure nostrum aliquam cumque, debitis maiores. Soluta ut eaque tempore.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias illo quam porro vel, facere maiores commodi dolor ad error cumque dolores modi nesciunt rem illum aut optio facilis consectetur animi.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate inventore ex laboriosam, consequatur, voluptate molestiae nihil labore modi sint rerum cumque, odio corrupti obcaecati impedit quisquam rem accusantium asperiores aspernatur?
+        </div>
+       
+      </div></div>
+    
 <table> Habitan con Loren
     <tr><!-- table row --> <th class="lista-desordenada">Nombre</th><th class="lista-desordenada">Apellido</th><th class="lista-desordenada">Edad</th> </tr>
     <tr><td>loren</td><td>santamarina</td><td>19</td></tr>
@@ -77,7 +153,9 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ipsa necessitatibus
 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit accusamus voluptas rem tempore deleniti, aspernatur voluptates asperiores, possimus incidunt laborum iure nostrum aliquam cumque, debitis maiores. Soluta ut eaque tempore.
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias illo quam porro vel, facere maiores commodi dolor ad error cumque dolores modi nesciunt rem illum aut optio facilis consectetur animi.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate inventore ex laboriosam, consequatur, voluptate molestiae nihil labore modi sint rerum cumque, odio corrupti obcaecati impedit quisquam rem accusantium asperiores aspernatur?
+<button type="button" class="btn btn-primary">click me</button>
 </spam>
 </body>
 <script src="https://kit.fontawesome.com/b10d219c84.js" crossorigin="anonymous"></script>
-<html>
+</html>
+<footer>legales</footer>
