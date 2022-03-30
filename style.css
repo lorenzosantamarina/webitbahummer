@@ -4,6 +4,7 @@ h1{color:blue;}
 *es
 *un comentario multilinea*/
 #foto{width: 10%; height: 10%; position:relative; left: 100px;}
+
 body{background-image:url(./image/cancah.jpg); background-repeat: no-repeat; background-size: cover;}
 *{color: lightpink;} /*esto es para el color del texto*/
 #cajaejemplo {
@@ -23,7 +24,21 @@ menu{list-style-type:none;
 }
 menu > a > li{display:inline;
 float: right ;  }
-#colizq{width:50% ;float: left;}
-#colder{width:50% ; float:right ;}
-#logo-header{width:5% ; display: inline;
+
+#logo-header{width:5% ; display: ;
 }
+footer{position: fixed;
+   bottom:0px;}
+   .col{border:1px solid white ;}
+   .col-8{border:1px solid white ;}
+.btn{background-color: grey;
+border: grey;}
+#menu{position: relative;
+  right:0px;}
+  table{border: 1px solid white;}
+
+  td{border: 1px solid white;}
+  th{border: 1px solid white;}
+  @media screen and (min-width: 480px){body{background-color: lightgreen;}#logo-header {display : inline;
+}}
+  
