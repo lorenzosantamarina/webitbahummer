@@ -25,7 +25,7 @@ menu{list-style-type:none;
 menu > a > li{display:inline;
 float: right ;  }
 
-#logo-header{width:5% ; display: ;
+#logo-header{width:5% ; display: none;
 }
 footer{position: fixed;
    bottom:0px;}
