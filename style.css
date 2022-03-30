@@ -7,8 +7,23 @@ h1{color:blue;}
 body{background-image:url(./image/cancah.jpg); background-repeat: no-repeat; background-size: cover;}
 *{color: lightpink;} /*esto es para el color del texto*/
 #cajaejemplo {
-    width: 30px;
-    border: 15px solid rgb(243, 1, 1); /*una oropiedad puede recibir varios valores y los separo cone espacio tipo priemro tamaño , tipo de linea y color*/ 
-    padding: 50px;
-    margin: 20;
-    }
+  width: 30px;
+  border: 15px solid rgb(243, 1, 1); /*una oropiedad puede recibir varios valores y los separo cone espacio tipo priemro tamaño , tipo de linea y color*/ 
+  padding: 50px;
+  margin: 20;
+  }
+#sobre{position:fixed; bottom: 30px;right: 20px;}
+header{
+position: sticky;
+position: -webkit-sticky;
+top: -1px;
+background-color: grey;
+}
+menu{list-style-type:none;
+}
+menu > a > li{display:inline;
+float: right ;  }
+#colizq{width:50% ;float: left;}
+#colder{width:50% ; float:right ;}
+#logo-header{width:5% ; display: inline;
+}
