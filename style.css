@@ -3,7 +3,7 @@ h1{color:blue;}
 /* esto
 *es
 *un comentario multilinea*/
-#foto-1{width: 10%; height: 10%; position:relative; right: 10px;}
+#foto-1{width: 10%; height: 10%; position:relative; right: 20px;}
 body{background-image:url(./image/cancah.jpg); background-repeat: no-repeat; background-size: cover;}
 *{color: lightpink;} /*esto es para el color del texto*/
 #cajaejemplo {
