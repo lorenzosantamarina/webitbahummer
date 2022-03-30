@@ -3,12 +3,12 @@ h1{color:blue;}
 /* esto
 *es
 *un comentario multilinea*/
-
+#foto-1{width: 10%; height: 10%; position:relative; right: 10px;}
 body{background-image:url(./image/cancah.jpg); background-repeat: no-repeat; background-size: cover;}
 *{color: lightpink;} /*esto es para el color del texto*/
-#modelodecaja{
+#cajaejemplo {
     width: 30px;
     border: 15px solid rgb(243, 1, 1); /*una oropiedad puede recibir varios valores y los separo cone espacio tipo priemro tamaño , tipo de linea y color*/ 
     padding: 50px;
     margin: 20;
-  }
+    }
